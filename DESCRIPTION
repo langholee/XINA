@@ -1,7 +1,7 @@
 Package: XINA
 Type: Package
 Title: Multiplexes isobaric mass tagged-based kinetics data for network analysis
-Version: 1.1.0
+Version: 1.1.1
 Date: 2018-08-23
 Author: Lee, Lang Ho and Singh, Sasha A.
 Authors@R: c(person("Lang Ho", "Lee", email = "langholee@gmail.com",  role = c("aut", "cre")), person("Sasha", "Singh", email = "sasingh@bwh.harvard.edu",  role = c("aut")))
@@ -27,7 +27,7 @@ LazyData: FALSE
 License: GPL-3
 Depends: R (>= 3.5), Biobase
 Imports: mclust, plyr, alluvial, ggplot2, igraph, gridExtra, tools, grDevices, graphics, utils, STRINGdb
-biocViews: SystemsBiology, Proteomics, RNASeq, Network
+biocViews: ImmunoOncology, SystemsBiology, Proteomics, RNASeq, Network
 RoxygenNote: 6.1.0
 VignetteBuilder: knitr
 Suggests: knitr, rmarkdown
